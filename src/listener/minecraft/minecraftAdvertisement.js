@@ -25,7 +25,7 @@ class MinecraftAdvertisementListener extends discord_akairo_1.Listener {
         var _a, _b, _c;
         return __awaiter(this, void 0, void 0, function* () {
             //#miunehut-chat in bot category
-            const channel = yield this.client.channels.fetch('863565097964142602');
+            const channel = yield this.client.channels.fetch(process.env.mainlog);
             const adRank = ad[0][0] || 'Default';
             const advertiser = ad[0][1];
             const serverName = ad[0][2].toLowerCase();
