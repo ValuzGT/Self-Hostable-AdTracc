@@ -14,6 +14,8 @@ Open Cmd And Run `npm install -g ts-node`
 
 
 Then Open Cmd and run `tsc`
+
+
 You Will Get A Folder Called Dist Delete The Folder Src And Rename The Dist Folder To Src
 This New Folder Will Be A Compiled Version Of The Old Src Fodler
 
